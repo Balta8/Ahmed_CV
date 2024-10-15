@@ -4,72 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahmed Mohamed Balta - CV</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1, h2 { color: #333; }
-        .container { max-width: 800px; margin: auto; }
-        .contact-info, .profile, .education, .experience, .projects, .skills, .certifications { padding: 15px; background-color: #f9f9f9; margin-bottom: 20px; border-radius: 8px; }
-        .profile img { max-width: 150px; border-radius: 50%; }
-        .section { margin-bottom: 20px; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Ahmed Mohamed Balta</h1>
-        <div class="contact-info">
-            <img src="Ahmed Balta.jpg" alt="Profile Picture">
-            <p>Dumyat, Egypt | (+20) 1018129599 | <a href="mailto:ahmedbalta10@gmail.com">ahmedbalta10@gmail.com</a></p>
-            <p><a href="https://www.linkedin.com/in/ahmed-balta-52302b268">LinkedIn</a> | <a href="https://github.com/Balta8">GitHub</a></p>
+        <!-- Sidebar Section -->
+        <div class="sidebar">
+            <img src="Ahmed Balta.jpg" alt="Ahmed Mohamed Balta" class="profile-pic">
+            <h2>Ahmed Mohamed Balta</h2>
+            <div class="contact-info">
+                <p>📞 (+20) 1018129599</p>
+                <p>✉️ ahmedbalta10@gmail.com</p>
+                <p><a href="https://www.linkedin.com/in/ahmed-balta-52302b268">LinkedIn</a></p>
+                <p><a href="https://github.com/Balta8">GitHub</a></p>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Machine Learning</li>
+                    <li>Data Visualization</li>
+                    <li>Deep Learning</li>
+                    <li>Natural Language Processing</li>
+                    <!-- Add other skills here -->
+                </ul>
+            </div>
         </div>
 
-        <div class="profile section">
-            <h2>Profile</h2>
-            <p>Aspiring AI Engineer with a strong academic background and excellent communication skills. Ready to apply my knowledge in artificial intelligence and machine learning to develop innovative solutions. Committed to continuous learning and advancing my expertise in a dynamic and forward-thinking environment.</p>
-        </div>
+        <!-- Main Content Section -->
+        <div class="main-content">
+            <section class="profile">
+                <h2>Profile</h2>
+                <p>Aspiring AI Engineer with a strong academic background and excellent communication skills. Ready to apply my knowledge in artificial intelligence and machine learning to develop innovative solutions.</p>
+            </section>
 
-        <div class="education section">
-            <h2>Education</h2>
-            <p>Bachelor's degree with honor in Artificial Intelligence (B+), Kafr Elsheikh University, Sep 2020 - Jul 2024</p>
-            <p>Graduation Project: Content creators' assistant mobile application (empowering content creators with AI tools like image generation, idea generation, voice generation, music recommendation, and speech to text).</p>
-        </div>
+            <section class="education">
+                <h2>Education</h2>
+                <p><strong>Bachelor's degree in Artificial Intelligence</strong> (B+), Kafr Elsheikh University</p>
+                <p>Sep 2020 - Jul 2024</p>
+                <p>Graduation Project: Content creators' assistant mobile application (AI tools for image generation, idea generation, etc.).</p>
+            </section>
 
-        <div class="experience section">
-            <h2>Work Experience</h2>
-            <p>Data Scientist Intern, Ministry of Communications and Information Technology, Apr 2024 - Present</p>
-            <ul>
-                <li>Cleaning data and exploration</li>
-                <li>Visualize and get insights from data</li>
-                <li>Build and evaluate machine learning model</li>
-            </ul>
-        </div>
+            <section class="experience">
+                <h2>Work Experience</h2>
+                <h3>Data Scientist Intern</h3>
+                <p>Ministry of Communications and Information Technology, Apr 2024 - Present</p>
+                <ul>
+                    <li>Data cleaning and exploration</li>
+                    <li>Data visualization and insights extraction</li>
+                    <li>Machine learning model building and evaluation</li>
+                </ul>
+            </section>
 
-        <div class="projects section">
-            <h2>Projects</h2>
-            <p><b>Music genre recommendation system</b> - Helps creators choose the perfect soundtrack, enhancing the emotional impact of their videos (Sep 2023 - Jul 2024)</p>
-            <p><b>Toxic comment classification</b> - Identifying and categorizing harmful or offensive comments in text data (Sep 2021 - Jan 2022)</p>
-        </div>
+            <section class="projects">
+                <h2>Projects</h2>
+                <h3>Music Genre Recommendation System</h3>
+                <p>Helps creators choose the perfect soundtrack for emotional impact (Sep 2023 - Jul 2024)</p>
 
-        <div class="skills section">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Programming Languages: Proficient in Python, familiarity with Java and C++.</li>
-                <li>Machine Learning Algorithms: Solid understanding of supervised and unsupervised learning.</li>
-                <li>Deep Learning: Experience with neural networks, CNNs, RNNs, LSTMs, and transformers.</li>
-                <li>Natural Language Processing (NLP): Skilled in text processing, tokenization, sentiment analysis, and topic modeling.</li>
-                <li>Computer Vision: Knowledge of image processing, object detection, and image segmentation.</li>
-                <li>Data Processing and ETL: Expertise in data cleaning, preprocessing, and transformation.</li>
-                <li>Data Visualization: Proficiency in visualization tools like Matplotlib, Seaborn, and Plotly.</li>
-                <li>Statistical Analysis: Strong foundation in probability, statistics, and hypothesis testing.</li>
-            </ul>
-        </div>
+                <h3>Toxic Comment Classification</h3>
+                <p>Identifies and categorizes harmful or offensive comments in text data (Sep 2021 - Jan 2022)</p>
+            </section>
 
-        <div class="certifications section">
-            <h2>Certifications</h2>
-            <ul>
-                <li>Machine Learning with Python - IBM, Sep 2024</li>
-                <li>Python Data Structures - University of Michigan, Sep 2024</li>
-                <li>Programming for Everybody (Getting Started with Python) - University of Michigan, Jul 2024</li>
-            </ul>
+            <section class="certifications">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>Machine Learning with Python - IBM, Sep 2024</li>
+                    <li>Python Data Structures - University of Michigan, Sep 2024</li>
+                    <li>Programming for Everybody - University of Michigan, Jul 2024</li>
+                </ul>
+            </section>
         </div>
     </div>
 </body>
